@@ -1,7 +1,7 @@
 from django.conf.urls.defaults import patterns, include, url
-import music
+from music import urls as music_urls
 
 urlpatterns = patterns('',
-    url(r'^$', include(music.urls)),
+    url(r'^$', include(music_urls)),
 
 )
