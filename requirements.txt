@@ -3,3 +3,4 @@ Fabric==1.0.1
 django-extensions==0.6
 django-registration==0.7
 django-selector==0.3
+git+http://github.com/wraithan/flameforged.git#egg=flameforged
