@@ -106,6 +106,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'nice_lyrics_db.music',
     'django_extensions',
+    'south',
     # Uncomment the next line to enable the admin:
     # 'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
